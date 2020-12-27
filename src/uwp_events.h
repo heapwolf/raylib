@@ -87,6 +87,7 @@ void UWPMousePosEvent(double x, double y);
 
 // Call when the mouse wheel moves
 void UWPMouseWheelEvent(int deltaY);
+void UWPMouseWheelEventXY(int deltaX, int deltaY);
 
 // Call when the window resizes
 void UWPResizeEvent(int width, int height);

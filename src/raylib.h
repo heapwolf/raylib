@@ -1047,6 +1047,7 @@ RLAPI void SetMousePosition(int x, int y);                    // Set mouse posit
 RLAPI void SetMouseOffset(int offsetX, int offsetY);          // Set mouse offset
 RLAPI void SetMouseScale(float scaleX, float scaleY);         // Set mouse scaling
 RLAPI float GetMouseWheelMove(void);                          // Returns mouse wheel movement Y
+RLAPI Vector2 GetMouseWheelMoveXY(void);
 RLAPI int GetMouseCursor(void);                               // Returns mouse cursor if (MouseCursor enum)
 RLAPI void SetMouseCursor(int cursor);                        // Set mouse cursor
 
